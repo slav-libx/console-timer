@@ -1,0 +1,82 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 544.000000000000000000
+    Position.Y = 61.000000000000000000
+    TabOrder = 1
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 489.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label1'
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 489.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label1'
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Position.X = 544.000000000000000000
+    Position.Y = 101.000000000000000000
+    TabOrder = 0
+    Text = 'Button1'
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Position.X = 544.000000000000000000
+    Position.Y = 144.000000000000000000
+    TabOrder = 5
+    Text = 'Button3'
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Position.X = 544.000000000000000000
+    Position.Y = 24.000000000000000000
+    TabOrder = 6
+    Text = 'Button4'
+    OnClick = Button4Click
+  end
+  object Label3: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 489.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label1'
+    TabOrder = 3
+  end
+  object Rectangle1: TRectangle
+    Position.X = 408.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button5: TButton
+    Position.X = 544.000000000000000000
+    Position.Y = 224.000000000000000000
+    TabOrder = 9
+    Text = 'Button5'
+    OnClick = Button5Click
+  end
+end
