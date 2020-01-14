@@ -71,3 +71,6 @@ netsocket/
 
 Android/
 Android64/
+Linux64/
+Win32/
+Win64/
